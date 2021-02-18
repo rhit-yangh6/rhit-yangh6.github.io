@@ -1,0 +1,62 @@
+body {
+    background: #DDDDDD;
+    background-image: url("../images/background.jpg");
+}
+
+.navbar {
+    background-color: #2196F3;
+    color: white;
+}
+
+.page-container {
+    margin-top: 75px;
+}
+
+#nameDisplay {
+    grid-area: name;
+}
+
+#aboutMe {
+    grid-area: aboutMe;
+}
+
+#sideLinks {
+    grid-area: links;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'name name aboutMe aboutMe aboutMe aboutMe'
+        'links links aboutMe aboutMe aboutMe aboutMe'
+        'links links aboutMe aboutMe aboutMe aboutMe'
+        'links links footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.grid-container>div {
+    
+    text-align: center;
+    padding: 20px 0;
+    /* font-size: 30px; */
+}
+
+#aboutMe {
+    text-align: start;
+    background-color: lightblue;
+    color: black;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nameDisplay {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
