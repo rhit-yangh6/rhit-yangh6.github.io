@@ -12,25 +12,15 @@ rhit.ClassName = class {
 }
 
 rhit.initializePages = function() {
-	if (document.querySelector("#indexPage")) {
-		document.querySelector("#aboutMeButton").onclick = (event) => {
-			window.location.href = "./index.html";
-		}
-		document.querySelector("#resumeButton").onclick = (event) => {
-			window.location.href = "./resume.html";
-		}
+	document.querySelector("#aboutMeButton").onclick = (event) => {
+		window.location.href = "./index.html";
 	}
-
-	if (document.querySelector("#resumePage")) {
-		document.querySelector("#aboutMeButton").onclick = (event) => {
-			window.location.href = "./index.html";
-		}
-		document.querySelector("#resumeButton").onclick = (event) => {
-			window.location.href = "./resume.html";
-		}
+	document.querySelector("#resumeButton").onclick = (event) => {
+		window.location.href = "./resume.html";
 	}
-
-
+	document.querySelector("#activitiesButton").onclick = (event) => {
+		window.location.href = "./activities.html";
+	}
 }
 
 /* Main */

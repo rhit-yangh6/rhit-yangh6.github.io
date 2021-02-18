@@ -60,3 +60,15 @@ body {
 #nameDisplay {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.card {
+    margin: 20px;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 174px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
